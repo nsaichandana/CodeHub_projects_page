@@ -1,0 +1,16 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", 
+    "tw=\"([^\"]*)", 
+    "tw={\"([^\"}]*)", 
+    "tw\\.\\w+`([^`]*)", 
+    "tw\\(.*?\\)`([^`]*)"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
